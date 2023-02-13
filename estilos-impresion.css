@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box ;
+}
+body{
+  width: 600px;
+
+}
+.section_act{
+  
+  width: fit-content;
+  margin-left: 90px;
+  padding:30px;
+  background-color:#8AA6A3 ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container1{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+}
+.imagen_logo{
+  width:200px ;
+  height:200px ;
+  margin-left:60px ;
+}
+.ul_barra{
+  display: none;
+}
+.perfil{
+  width: 70%;
+  align-items:flex-start;
+}
+.icon{
+  display: none;
+}
+.experiencia{
+  padding-top: 30px;
+}
+.barra_print{
+  display: block;
+  padding: 50px;
+  font-size: 20px;
+}
+
+#section3{
+  display: block;
+  width: fit-content;
+  margin-left: 110px;
+  margin-top: 20px;
+  padding:30px;
+  background-color:#8AA6A3 ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container2{
+  display: none;
+}
+#text_title_section2{
+  display: none;
+}
+.cont_habli{
+  display: block;
+}
+.div_habli{
+  width: 300px;
+}
+.cont_print_items_perfil{
+  display: flex;
+}
+.name{
+  display: block;
+}

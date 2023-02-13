@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTAFOLIO</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./estilos-impresion.css" media="print" />
+</head>
+
+<body>
+  <header>
+    <nav class="barra_nav">
+      <ul class="ul_barra">
+        <li class="item_nav_pri">PORTAFOLIO
+          <p class="name">Juan David Toloza Ortega</p></li>
+        <li class="item_nav_act" id="nav1" onclick="seleccionar(1)">Sobre Mi</li>
+        <li class="item_nav" id="nav2" onclick="seleccionar(2)">Proyectos</li>
+        <li class="item_nav" id="nav3" onclick="seleccionar(3)">Contacto</li>
+      </ul>
+    </nav>
+    <div class="barra_print">
+      <h1>PORTAFOLIO</h1>
+      <h2>Juan David Toloza Ortega</h2>
+    </div>
+  </header>
+  <main>
+
+    <section id="section1"class="section_act">
+      <h2 class="title">Sobre mi</h2>
+      <div class="container1">
+        <div class="perfil">
+          <img src="https://cdn-icons-png.flaticon.com/512/1995/1995515.png" alt="" class="imagen_logo">
+          <p>Mi nombre es Juan David y soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y sitios web dinámicos. He trabajado en proyectos utilizando HTML, CSS, JavaScript, y diferentes frameworks como Express, Node.js y Bootstrap.</p>
+          <p>Tengo una pasión por la creación de soluciones digitales atractivas y eficientes, y me esfuerzo por mantenerme actualizado con las últimas tendencias y tecnologías en el campo. Me gusta trabajar de manera colaborativa con equipos interdisciplinarios para asegurar la entrega de proyectos de alta calidad.</p>
+        </div>
+        <div class="cont_print_items_perfil">
+          <div class="div_habli">
+            <h2 class="title_habli">Hablidades</h2>
+            <div class="container4">
+              <div class="con_habli">
+                     
+                <p>-Trabajo en Equipo</p>
+                <p>-Responsabilidad</p>
+                <p>-Logica</p>
+                <p>-Manejo de control de versiones</p>          
+                <p>-Manejo DML y DDL</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="experiencia">
+            <h4 class="sub_exp">Experiencia en:</h4>
+            <ul class="ul_experiencia">
+              <li><img class="icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png " alt="">Javascript</li>
+              <li><img class="icon" src="/sources/Webysther_20160423_-_Elephpant.svg.png"> Php</li>
+              <li><img class="icon" src="/sources/logo-mysql-26353.png" alt="">Mysql</li>
+              <li><img class="icon" src="/sources/Microsoft.VisualStudio.Services.Icons.Default"> Mongo</li>
+              <li><img class="icon" src="/sources/Bootstrap_logo.svg.png" alt="" />Bootstrap </li>
+            </ul>
+          </div>
+
+        </div>
+        
+
+      </div>
+
+
+    </section>
+    <section id="section2" class="section_no_act">
+      <h2 class="title" id="text_title_section2">Proyectos</h2>
+      <div class="container2">
+        <div class="tarjeta">
+          <img src="./sources/calculadora.jpg" alt="" class="tar_img">
+          <h4>Calculadora</h4>
+          <p>Calculadora basica funcional enfocada en diseño CSS.</p>
+          <a href="https://joker120620.github.io/Calculadora_full-version_coex2023/"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="" class="github"></a>
+          
+        </div>
+        <div class="tarjeta">
+          <img src="/sources/apptiempo.jpg" alt="" class="tar_img">
+          <h4>App Clima</h4>
+          <p>app climatica con consumo de API y diseño CSS.</p>
+           <a href="https://joker120620.github.io/Ejercicio_clima/"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="" class="github"></a>
+        </div>
+        <div class="tarjeta">
+          <img src="./sources/tictac.jpg" alt="" class="tar_img">
+          <h4>Tic Tac Toe</h4>
+          <p>Juego basico contra ordenador, enfocado en diseño CSS.</p>
+           <a href="https://joker120620.github.io/TIC-TAC-TOE/"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="" class="github"></a>
+        </div>
+        <div class="tarjeta">
+          <img src="./sources/pokedesk.jpg" alt="" class="tar_img">
+          <h4>pokedex</h4>
+          <p>Biblioteca de pokemons, aplicando consumo de API.</p>
+           <a href="https://joker120620.github.io/Pokedesk/"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="" class="github"></a>
+        </div>
+      </div>
+    </section>
+   
+    <section id="section3" class="section_no_act">
+      <h2 class="title">Contacto</h2>
+      <div class="container3">
+        <div class="con_cont">
+          <a href=""><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="" class="github"></a>       
+          <p>JuanD1206</p>
+          <p>Email</p>
+          <p>juandavidtolozaortega348@gmail.com </p>
+          <p>Telefono</p>          
+          <p>(+57) 3107222341</p>
+          
+        </div>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="./main.js"></script>
+</body>
+
+</html>

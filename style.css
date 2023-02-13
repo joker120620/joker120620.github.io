@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box ;
+}
+body{
+  color: #161F30;
+  background-color:#BFBFBF ;
+  font-family: 'Titillium Web', sans-serif;
+}
+.barra_print{
+  display: none;
+}
+.barra_nav{
+  font-size: 30px ;
+  background-color:#547980;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.ul_barra{
+  display:flex ;
+  justify-content: space-around ;
+  list-style: none;
+  
+}
+.item_nav{
+  height:50px ;
+  width:150px;
+  margin-top:20px ;
+  display: flex ;
+  justify-content:center ;
+  
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  color: white ;
+}
+.item_nav_act{
+  height: 70px;
+  width: 150px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #8AA6A3;
+  padding-top: 25px;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  color: #161F30;
+  font-weight: 700;
+}
+.item_nav_pri{
+  height:80px ;
+  width:200px;
+  align-items:center ;
+  display: flex ;
+  justify-content:center ;
+  color: white ;
+  
+}
+.ocultar {
+  display: none;
+}
+
+a{
+  text-decoration: none;
+}
+.title{
+  font-size: 30px ;
+  padding:10px ;
+  text-align:center ;
+}
+.section_act{
+  margin:0 40px 0 40px;
+  padding:30px;
+  background-color:#8AA6A3 ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.section_no_act{
+  
+  display:none;
+}
+
+.container1 {
+  display: flex ;
+  font-size:15px;
+  border-radius:15px ;
+  font-size: 20px ;
+  
+}
+.container1:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.container2{
+  display: flex ;
+  padding:30px ;
+  gap:20px ;
+  justify-content: center;
+}
+.container3{
+  display: flex ;
+  padding:30px ;
+  gap:20px ;
+  flex-direction:column ;
+  align-items:center ;
+}
+.container4{
+  display: flex ;
+  padding:10px ;
+  gap:20px ;
+  flex-direction:column ;
+  align-items:flex-start ;
+}
+.title_habli{
+  font-size: 30px ;
+  text-align:center ;
+  margin-top: 10px;
+}
+.con_habli{
+  width:200px ;
+  text-align:start ;
+}
+.container3 :hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.perfil{
+  padding:40px ;
+  width: fit-content;
+  
+  
+}
+.imagen_logo{
+  width:200px ;
+  height:200px ;
+  margin-left:60px ;
+}
+.experiencia{
+  justify-content:center ;
+  padding:20px ;
+  padding-top:0;
+  width:300px ;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.sub_exp{
+  margin:10px 0 10px 10px ;
+}
+.ul_experiencia{
+  list-style: none;
+  
+  align-items:center ;
+  justify-content:center ;
+  text-align:start ;
+}
+.ul_experiencia :hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.tarjeta{
+  width:200px;
+  height:370px ;
+  border:solid 1px white ;
+  padding:10px ;
+  justify-content:center ;
+  text-align:center ;
+  font-size:15px;
+  border-radius:15px ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.github{
+  margin:10px ;
+  width: 40px;
+  height:40px;
+}
+.tarjeta:hover{
+  margin-top:20px ;
+}
+.tar_img{
+  width:150px ;
+  height :200px;
+  border:solid 1px ;
+  border-radius:10px ;
+  
+}
+.con_cont{
+  width:400px ;
+  padding:30px ;
+  
+  text-align:center ;
+  border-radius:20px ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.icon{
+  width:30px;
+  height:30px ;
+  margin-right:10px ;
+}
+.div_habli{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 15px;
+}
+.cont_habli{
+  display: none;
+}
+.name{
+  display: none;
+}
