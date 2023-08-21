@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap');
+:root {
+    --main-bg-color: #0e172b;
+    --text-color-tittle:#e2e8f0;
+    --text-color:#a4a6ae;
+    --text-important:#58dad5;
+  }
+*{
+    font-family: 'Assistant', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    font-size: 17px;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--main-bg-color);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--text-important);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--main-bg-color);  /* creates padding around scroll thumb */
+  }
+
+
+@keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+.img_carga {
+    border: 6px solid var(text-color-tittle);
+    border-radius: 10%;
+    width: 50px;
+    height: 50px;
+    animation: loading 1.5s infinite linear;
+  }
+.div_carga{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes loading_text {
+    0% {
+        opacity:0;
+        transform:translate3d(10%,0,0);
+    }
+    50% {
+        opacity:0.5;
+        
+    }
+    100% {
+        opacity:1;
+    }
+  }
+@keyframes viwer_Img {
+    0% {
+        opacity:0;
+        transform:translate3d(-10%,0,0);
+    }
+    50% {
+        opacity:0.5;
+        
+    }
+    100% {
+        opacity:1;
+    }
+  }
+
+  @keyframes loading_nav {
+    0% {
+        opacity:0;
+        transform:translate3d(0,-25%,0);
+    }
+    50% {
+        opacity:0.5;
+        
+    }
+    100% {
+        opacity:1;
+    }
+  }
+
+.div_profile_img{
+    display: none;
+    position: absolute;
+    border-radius: 50%;
+    top: 5%;
+    left: 95%;
+    z-index: 2;
+    animation:linear viwer_Img 0.2s ;
+}
+.div_profile_img img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+  
+
+
+
+
+
+
+
+#main{
+    position: relative;
+    display: none;
+    gap: 20px;
+    padding: 100px 150px 0px 150px;
+}
+p::selection{
+    color:var(--text-color);
+    background-color:var(--text-important);
+}
+h2::selection{
+    color:var(--text-color);
+    background-color:var(--text-important);
+}
+
+.title_name{
+    color: var(--text-color-tittle);
+    font-size: 50px;
+    cursor: pointer;
+}
+.sub_tittle_name{
+    color: var(--text-color-tittle);
+    font-size: 22px;
+}
+  
+.header{
+    width: 20rem; 
+    position: fixed;
+    animation: loading_nav 0.5s linear;
+}
+.contact{
+    position: relative;
+    display: flex;
+    gap: 40px;
+    padding-bottom: 0%;
+    margin-top: 100px;
+    
+}
+ 
+.contact svg{
+    position: absolute;
+    
+}
+.contact svg:hover{
+    color: white;
+    width: 20px;
+    
+}
+ul li:hover{
+    color: white;
+    
+}
+li a{
+    text-decoration: none;
+
+}
+.content{ 
+    width: fit-content;
+    padding: 10px;
+    margin: 0;
+    animation: loading_text 0.5s linear;
+}
+.content p{
+    padding: 10px;
+}
+.content p:hover{
+    background-color: #172341;
+    border-radius: 15px;
+    padding: 10px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function:linear;
+}
+
+
+.list_menu{
+    position: relative;
+}
+.list_menu:hover .barra_menu{
+    width: 110px;
+    cursor: pointer;
+
+}
+.content:hover .barra_menu{
+    width: 110px;
+    cursor: pointer;
+
+}
+
+.barra_menu{
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    top: 25px;
+    background: rgb(253, 249, 249);
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+p span{
+    color: var(--text-important)
+}
+p:hover span{
+    background-color: #172341;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function:linear;
+}
